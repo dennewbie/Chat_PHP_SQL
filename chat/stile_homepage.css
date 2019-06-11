@@ -1,0 +1,148 @@
+﻿div{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+div.larghezzaColonne2{
+  clear: both !important;
+  column-width: 1000px; /*applico il column width*/
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */ /*applico il column-gap*/
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+
+  column-count:2;
+  column-rule-style:solid;  /*applico il column-rule*/
+  column-rule-width:medium;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+	background-color:#d0451b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+nav {
+ display:block;
+ height:50px;
+ background-color:#464c53;
+ padding-top:15px;
+ padding-left:80px;
+ border-top:10px solid rgb(151, 150, 150);
+ border-radius:100px;
+}
+
+nav  li {
+ display:inline; /* le voci dell'elenco vengono visualizzate una affianco all'altra */
+ margin:20px;
+ padding:10px;
+}
+
+fieldset {
+  font-family: sans-serif;
+  border: 5px solid #1F497D;
+  background: #ddd;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+fieldset legend {
+  background: #1F497D;
+  color: #fff;
+  padding: 5px 10px ;
+  font-size: 32px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px #ddd;
+  margin-left: 20px;
+}
+
+ section {
+  float:left; /* colloca l'elemento a sinstra */
+  width:9%;
+  height:70px;
+  text-align:left;
+  background-color:rgb(169, 203, 224);
+  border-radius:30px; /* aggiunge angoli arrotondati; l'arrotondamento è definito dal valore del raggio */
+  -moz-border-radius:30px;
+  box-shadow: 5px 5px 12px 4px rgb(110, 102, 102); /* aggiunge ombreggiatura ad un elemento; si devono inserire 4 valori in pixel e terminare con il colore dell'ombreggiatura */
+  -webkit-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+  -moz-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+ }
+
+ img {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.sezioneFoto1{
+  float:right; /* colloca l'elemento a sinistra */
+  width:102%;
+  height:265px;
+  text-align:left;
+  background-color:rgb(169, 203, 224);
+  border-radius:30px; /* aggiunge angoli arrotondati; l'arrotondamento è definito dal valore del raggio */
+  -moz-border-radius:30px;
+  box-shadow: 5px 5px 12px 4px rgb(110, 102, 102); /* aggiunge ombreggiatura ad un elemento; si devono inserire 4 valori in pixel e terminare con il colore dell'ombreggiatura */
+  -webkit-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+  -moz-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+}
+
+.sezioneFoto2{
+  float:left; /* colloca l'elemento a sinistra */
+  width:70%;
+  height:265px;
+  text-align:left;
+  background-color:rgb(169, 203, 224);
+  border-radius:30px; /* aggiunge angoli arrotondati; l'arrotondamento è definito dal valore del raggio */
+  -moz-border-radius:30px;
+  box-shadow: 5px 5px 12px 4px rgb(110, 102, 102); /* aggiunge ombreggiatura ad un elemento; si devono inserire 4 valori in pixel e terminare con il colore dell'ombreggiatura */
+  -webkit-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+  -moz-box-shadow: 5px 5px 12px 4px rgb(110, 102, 102);
+  margin-left: 15%;
+}
+
+
+
+ .spazioFoto{
+  padding-top:55px;
+  height:140px;
+  width: 48%;
+ }

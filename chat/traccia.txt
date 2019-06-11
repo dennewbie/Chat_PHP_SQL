@@ -1,0 +1,13 @@
+Realizzare una chat attraverso l’utilizzo di un database mysql.
+La chat deve prevedere il login previo registrazione, ottenuto il quale l'utente loggato entrerà nella lista degli utenti online.
+
+La chat principale dovrà contenere tutti i messaggi digitati in modo cronologico dai vari utenti del tipo
+
+nomeutente: 25.04.2017 - 18.15.05
+ciao a tutti sono Carlo
+
+e dovrà essere visualizzata ogni tot ms in modo da visualizzare gli ultimi messaggi inviati.
+
+OPTIONAL
+- CREARE uno spazio per le varie stanze della chat
+- click su un utente online, apre una conversazione privata con l'utente cliccato
